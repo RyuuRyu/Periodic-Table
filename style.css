@@ -1,0 +1,15 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 97vh;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.periodic-container {
+  background-color: red;
+  height: 70vh;
+  width: 155vh;
+  padding: 5px;
+}
