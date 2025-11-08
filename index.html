@@ -1,71 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chemics - Interactive Periodic Table</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chemics - Explore the Elements</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
     <!-- Navbar -->
     <nav class="navbar">
         <a href="#" class="logo">Chem<span>ics</span></a>
-        <div class="nav-links">
-            <a href="#">Elements</a>
-            <a href="#">Categories</a>
-            <a href="#">Properties</a>
-            <a href="#">About</a>
-        </div>
+        <div class="nav-right">Some Links</div>
     </nav>
 
-    <!-- Main Content -->
-    <div class="container">
-        <div class="hero">
-            <h1>Explore the Periodic Table</h1>
-            <p class="subtitle">An interactive, modern way to discover chemical elements with detailed information, properties, and real-world applications.</p>
+    <!-- Main content -->
+    <section class="container">
+        <!-- Left card -->
+        <div class="card">
+            <h2>Chemical Formula<br>(Hydrogen for example)</h2>
+            <p style="margin-top:1rem; font-family:monospace; font-size:1.4rem; color:#4f46e5;">
+                H<sub>2</sub>
+            </p>
         </div>
 
-        <div class="features">
-            <div class="feature-card">
-                <div class="feature-icon">118</div>
-                <h3>All Elements</h3>
-                <p>Access complete information on all 118 known chemical elements, from Hydrogen to Oganesson.</p>
-            </div>
-
-            <div class="feature-card">
-                <div class="feature-icon">10</div>
-                <h3>Categories</h3>
-                <p>Organized by element categories including metals, non-metals, metalloids, and noble gases.</p>
-            </div>
-
-            <div class="feature-card">
-                <div class="feature-icon">∞</div>
-                <h3>Detailed Properties</h3>
-                <p>Atomic mass, electron configuration, melting point, density, and much more for each element.</p>
-            </div>
-
-            <div class="feature-card">
-                <div class="feature-icon">🔍</div>
-                <h3>Smart Search</h3>
-                <p>Quickly find elements by name, symbol, atomic number, or browse by period and group.</p>
-            </div>
-
-            <div class="feature-card">
-                <div class="feature-icon">📱</div>
-                <h3>Responsive Design</h3>
-                <p>Beautifully crafted interface that works perfectly on desktop, tablet, and mobile devices.</p>
-            </div>
-
-            <div class="feature-card">
-                <div class="feature-icon">🎨</div>
-                <h3>Modern UI</h3>
-                <p>Clean, minimalist design with a contemporary color palette and smooth interactions.</p>
-            </div>
+        <!-- Right card -->
+        <div class="card">
+            <h2>Description about the website</h2>
+            <p>
+                Chemics is an interactive periodic‑table explorer. Click any element to view its atomic properties, electron configuration, real‑world uses, and more – all presented in a clean, modern interface.
+            </p>
         </div>
-    </div>
+    </section>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Chemics. Interactive Periodic Table for Students, Teachers, and Chemistry Enthusiasts.</p>
+        © 2025 Chemics – A minimalist periodic table for students, educators, and chemistry lovers.
     </footer>
+
 </body>
 </html>
